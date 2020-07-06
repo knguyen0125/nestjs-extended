@@ -7,8 +7,18 @@
   "devDependencies": {
     "@commitlint/cli": "^9.0.1",
     "@commitlint/config-conventional": "^9.0.1",
+    "@nestjs/common": "^7.3.1",
+    "@nestjs/core": "^7.3.1",
     "husky": "^4.2.5",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.6.0",
+    "tsdx": "^0.13.2",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.6"
+  },
+  "dependencies": {
+    "@nestjs-extended/config": "file:packages/config"
   },
   "husky": {
     "hooks": {
