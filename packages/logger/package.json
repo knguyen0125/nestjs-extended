@@ -18,7 +18,7 @@
     "prepare": "tsdx build",
     "precommit": "yarn test && yarn lint"
   },
-  "name": "@nestjs-extended/config",
+  "name": "@nestjs-extended/logger",
   "author": "Kien Nguyen",
   "module": "dist/config.esm.js",
   "peerDependencies": {
@@ -28,7 +28,7 @@
     "rxjs": "^6.0.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "lodash-es": "^4.17.15"
+    "pretty-error": "^2.1.1",
+    "winston": "^3.3.3"
   }
 }
